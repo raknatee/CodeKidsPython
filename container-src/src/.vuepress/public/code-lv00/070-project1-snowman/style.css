@@ -1,0 +1,23 @@
+body {
+    background-color: #19244f;
+}
+
+h1 {
+    margin: 0;
+}
+
+.object {
+    width: 100px;
+    height: 100px;
+}
+
+.tri {
+    background-color: #fc7617;
+    clip-path: polygon(50% 0, 0 100%, 100% 100%);
+}
+
+.circle {
+    border-radius: 50%;
+    background-color: #ffffff;
+    text-align: center;
+}

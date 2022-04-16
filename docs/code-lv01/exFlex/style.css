@@ -1,0 +1,21 @@
+.headerBar {
+    background-color: #263238;
+    display: flex;
+    padding: 2rem;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.barLeft {
+    color: whitesmoke;
+}
+
+.barRight {}
+
+a {
+    color: whitesmoke;
+    text-decoration: none;
+    padding: 1rem;
+    margin: 1rem;
+    border: 1px solid whitesmoke;
+}

@@ -1,0 +1,19 @@
+* {
+    box-sizing: border-box;
+}
+
+.box {
+    background-color: rgb(255, 192, 0);
+    width: 100px;
+    height: 100px;
+    /* margin: 10px; */
+}
+
+.layout {
+    background-color: gray;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 10px;
+    row-gap: 10px;
+    justify-items: center;
+}
