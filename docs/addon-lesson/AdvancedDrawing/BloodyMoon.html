@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Multiple Turtles - Bloody Moon | Python</title>
+    <meta name="generator" content="VuePress 1.9.7">
+    
+    <meta name="description" content="">
+    <meta name="theme-color" content="#3eaf7c">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    
+    <link rel="preload" href="/assets/css/0.styles.f1d29aca.css" as="style"><link rel="preload" href="/assets/js/app.71df5d80.js" as="script"><link rel="preload" href="/assets/js/7.4546102b.js" as="script"><link rel="preload" href="/assets/js/22.110c2f3d.js" as="script"><link rel="prefetch" href="/assets/js/1.88776c13.js"><link rel="prefetch" href="/assets/js/10.09db2e33.js"><link rel="prefetch" href="/assets/js/11.e3dbc0cc.js"><link rel="prefetch" href="/assets/js/12.8834b00f.js"><link rel="prefetch" href="/assets/js/13.1862181b.js"><link rel="prefetch" href="/assets/js/14.be29e78b.js"><link rel="prefetch" href="/assets/js/15.e9cd77ce.js"><link rel="prefetch" href="/assets/js/16.8695ed38.js"><link rel="prefetch" href="/assets/js/17.4d88657d.js"><link rel="prefetch" href="/assets/js/18.92b51cba.js"><link rel="prefetch" href="/assets/js/19.795dc008.js"><link rel="prefetch" href="/assets/js/2.9aa40fa4.js"><link rel="prefetch" href="/assets/js/20.55dd5cc6.js"><link rel="prefetch" href="/assets/js/21.56d588a7.js"><link rel="prefetch" href="/assets/js/23.775b4b3f.js"><link rel="prefetch" href="/assets/js/24.8e72dd4c.js"><link rel="prefetch" href="/assets/js/25.50d84af6.js"><link rel="prefetch" href="/assets/js/26.74ef4b81.js"><link rel="prefetch" href="/assets/js/3.034fec1d.js"><link rel="prefetch" href="/assets/js/4.cd50ab7f.js"><link rel="prefetch" href="/assets/js/5.f1a84246.js"><link rel="prefetch" href="/assets/js/8.ea7ad7e4.js"><link rel="prefetch" href="/assets/js/9.58059d2e.js">
+    <link rel="stylesheet" href="/assets/css/0.styles.f1d29aca.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="theme-container no-sidebar"><header class="navbar"><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/" class="home-link router-link-active"><!----> <span class="site-name">Python</span></a> <div class="links"><!----> <!----></div></header> <div class="sidebar-mask"></div> <aside class="sidebar"><!---->  <!----> </aside> <main class="page"> <div class="theme-default-content content__default"><h1 id="multiple-turtles-bloody-moon"><a href="#multiple-turtles-bloody-moon" class="header-anchor">#</a> Multiple Turtles - Bloody Moon</h1> <video controls="controls"><source src="/AdvancedDrawing/bloody-moon/output.mkv" type="video/mp4"></video> <h2 id="project-structure"><a href="#project-structure" class="header-anchor">#</a> project structure</h2> <div class="language- line-numbers-mode"><pre class="language-text"><code>+-- bloody-moon
+|    +-- main.py
+|    +-- moon.py
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br></div></div><p>main.py</p> <div class="language-py line-numbers-mode"><pre class="language-py"><code><span class="token keyword">from</span> turtle <span class="token keyword">import</span> Screen<span class="token punctuation">,</span>Turtle
+
+<span class="token keyword">from</span> moon <span class="token keyword">import</span> move_moon<span class="token punctuation">,</span> draw_moon
+
+
+<span class="token keyword">def</span> <span class="token function">main</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">:</span>
+    screen <span class="token operator">=</span> Screen<span class="token punctuation">(</span><span class="token punctuation">)</span>
+    screen<span class="token punctuation">.</span>setup<span class="token punctuation">(</span><span class="token number">600</span><span class="token punctuation">,</span> <span class="token number">600</span><span class="token punctuation">)</span>
+    screen<span class="token punctuation">.</span>bgcolor<span class="token punctuation">(</span><span class="token string">&quot;black&quot;</span><span class="token punctuation">)</span>
+    screen<span class="token punctuation">.</span>tracer<span class="token punctuation">(</span><span class="token number">0</span><span class="token punctuation">)</span>
+    moon <span class="token operator">=</span> Turtle<span class="token punctuation">(</span><span class="token punctuation">)</span>
+    moon<span class="token punctuation">.</span>hideturtle<span class="token punctuation">(</span><span class="token punctuation">)</span>
+    crescent <span class="token operator">=</span> Turtle<span class="token punctuation">(</span><span class="token punctuation">)</span>
+    crescent<span class="token punctuation">.</span>hideturtle<span class="token punctuation">(</span><span class="token punctuation">)</span>
+
+    <span class="token keyword">while</span> <span class="token boolean">True</span><span class="token punctuation">:</span>
+        moon<span class="token punctuation">.</span>clear<span class="token punctuation">(</span><span class="token punctuation">)</span>
+        draw_moon<span class="token punctuation">(</span>moon<span class="token punctuation">,</span> <span class="token string">&quot;red&quot;</span><span class="token punctuation">,</span> <span class="token number">100</span><span class="token punctuation">,</span> <span class="token number">20</span><span class="token punctuation">)</span>
+        draw_moon<span class="token punctuation">(</span>crescent<span class="token punctuation">,</span> <span class="token string">&quot;white&quot;</span><span class="token punctuation">,</span> <span class="token number">100</span><span class="token punctuation">,</span> <span class="token number">20</span><span class="token punctuation">)</span>
+        move_moon<span class="token punctuation">(</span>moon<span class="token punctuation">,</span> <span class="token number">0.8</span><span class="token punctuation">)</span>
+        screen<span class="token punctuation">.</span>update<span class="token punctuation">(</span><span class="token punctuation">)</span>
+
+
+main<span class="token punctuation">(</span><span class="token punctuation">)</span>
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br><span class="line-number">13</span><br><span class="line-number">14</span><br><span class="line-number">15</span><br><span class="line-number">16</span><br><span class="line-number">17</span><br><span class="line-number">18</span><br><span class="line-number">19</span><br><span class="line-number">20</span><br><span class="line-number">21</span><br><span class="line-number">22</span><br><span class="line-number">23</span><br><span class="line-number">24</span><br></div></div><p>moon.py</p> <div class="language-py line-numbers-mode"><pre class="language-py"><code><span class="token keyword">def</span> <span class="token function">draw_moon</span><span class="token punctuation">(</span>turtle<span class="token punctuation">,</span> color<span class="token punctuation">,</span> width<span class="token punctuation">,</span> circle_size<span class="token punctuation">)</span><span class="token punctuation">:</span>
+    turtle<span class="token punctuation">.</span>color<span class="token punctuation">(</span>color<span class="token punctuation">)</span>
+    turtle<span class="token punctuation">.</span>width<span class="token punctuation">(</span>width<span class="token punctuation">)</span>
+    turtle<span class="token punctuation">.</span>begin_fill<span class="token punctuation">(</span><span class="token punctuation">)</span>
+    turtle<span class="token punctuation">.</span>circle<span class="token punctuation">(</span>circle_size<span class="token punctuation">)</span>
+    turtle<span class="token punctuation">.</span>end_fill<span class="token punctuation">(</span><span class="token punctuation">)</span>
+
+
+<span class="token keyword">def</span> <span class="token function">move_moon</span><span class="token punctuation">(</span>turtle<span class="token punctuation">,</span> speed<span class="token punctuation">)</span><span class="token punctuation">:</span>
+    turtle<span class="token punctuation">.</span>right<span class="token punctuation">(</span>speed<span class="token punctuation">)</span>
+    turtle<span class="token punctuation">.</span>forward<span class="token punctuation">(</span>speed <span class="token operator">-</span> <span class="token number">0.1</span><span class="token punctuation">)</span>
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br></div></div></div> <footer class="page-edit"><!----> <!----></footer> <!----> </main></div><div class="global-ui"></div></div>
+    <script src="/assets/js/app.71df5d80.js" defer></script><script src="/assets/js/7.4546102b.js" defer></script><script src="/assets/js/22.110c2f3d.js" defer></script>
+  </body>
+</html>

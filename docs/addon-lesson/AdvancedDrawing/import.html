@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Python Import and Modules | Python</title>
+    <meta name="generator" content="VuePress 1.9.7">
+    
+    <meta name="description" content="">
+    <meta name="theme-color" content="#3eaf7c">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    
+    <link rel="preload" href="/assets/css/0.styles.f1d29aca.css" as="style"><link rel="preload" href="/assets/js/app.71df5d80.js" as="script"><link rel="preload" href="/assets/js/7.4546102b.js" as="script"><link rel="preload" href="/assets/js/24.8e72dd4c.js" as="script"><link rel="prefetch" href="/assets/js/1.88776c13.js"><link rel="prefetch" href="/assets/js/10.09db2e33.js"><link rel="prefetch" href="/assets/js/11.e3dbc0cc.js"><link rel="prefetch" href="/assets/js/12.8834b00f.js"><link rel="prefetch" href="/assets/js/13.1862181b.js"><link rel="prefetch" href="/assets/js/14.be29e78b.js"><link rel="prefetch" href="/assets/js/15.e9cd77ce.js"><link rel="prefetch" href="/assets/js/16.8695ed38.js"><link rel="prefetch" href="/assets/js/17.4d88657d.js"><link rel="prefetch" href="/assets/js/18.92b51cba.js"><link rel="prefetch" href="/assets/js/19.795dc008.js"><link rel="prefetch" href="/assets/js/2.9aa40fa4.js"><link rel="prefetch" href="/assets/js/20.55dd5cc6.js"><link rel="prefetch" href="/assets/js/21.56d588a7.js"><link rel="prefetch" href="/assets/js/22.110c2f3d.js"><link rel="prefetch" href="/assets/js/23.775b4b3f.js"><link rel="prefetch" href="/assets/js/25.50d84af6.js"><link rel="prefetch" href="/assets/js/26.74ef4b81.js"><link rel="prefetch" href="/assets/js/3.034fec1d.js"><link rel="prefetch" href="/assets/js/4.cd50ab7f.js"><link rel="prefetch" href="/assets/js/5.f1a84246.js"><link rel="prefetch" href="/assets/js/8.ea7ad7e4.js"><link rel="prefetch" href="/assets/js/9.58059d2e.js">
+    <link rel="stylesheet" href="/assets/css/0.styles.f1d29aca.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="theme-container no-sidebar"><header class="navbar"><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/" class="home-link router-link-active"><!----> <span class="site-name">Python</span></a> <div class="links"><!----> <!----></div></header> <div class="sidebar-mask"></div> <aside class="sidebar"><!---->  <!----> </aside> <main class="page"> <div class="theme-default-content content__default"><h1 id="python-import-and-modules"><a href="#python-import-and-modules" class="header-anchor">#</a> Python Import and Modules</h1> <h2 id="project-structure"><a href="#project-structure" class="header-anchor">#</a> project structure</h2> <div class="language- line-numbers-mode"><pre class="language-text"><code>+-- learn-how-to-import
+|    +-- main.py
+|    +-- my_code.py
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br></div></div><h3 id="keyword-import"><a href="#keyword-import" class="header-anchor">#</a> Keyword: <strong>import</strong></h3> <p>my_code.py</p> <div class="language-py line-numbers-mode"><pre class="language-py"><code>number <span class="token operator">=</span> <span class="token number">10</span>
+
+<span class="token keyword">def</span> <span class="token function">add</span><span class="token punctuation">(</span>a<span class="token punctuation">)</span><span class="token punctuation">:</span>
+    <span class="token keyword">print</span><span class="token punctuation">(</span>a<span class="token operator">+</span>number<span class="token punctuation">)</span></code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br></div></div><p>main.py</p> <div class="language-py line-numbers-mode"><pre class="language-py"><code><span class="token keyword">import</span> my_code
+
+<span class="token keyword">print</span><span class="token punctuation">(</span>my_code<span class="token punctuation">.</span>number<span class="token punctuation">)</span>
+my_code<span class="token punctuation">.</span>add<span class="token punctuation">(</span><span class="token number">5</span><span class="token punctuation">)</span>
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br></div></div><details class="custom-block details"><summary>output</summary> <div class="language- line-numbers-mode"><pre class="language-text"><code>10
+15
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br></div></div></details> <h3 id="keyword-from-import"><a href="#keyword-from-import" class="header-anchor">#</a> Keyword: <strong>from</strong> <strong>import</strong></h3> <p>main.py</p> <div class="language-py line-numbers-mode"><pre class="language-py"><code><span class="token keyword">from</span> my_code <span class="token keyword">import</span> number<span class="token punctuation">,</span> add
+
+<span class="token keyword">print</span><span class="token punctuation">(</span>number<span class="token punctuation">)</span>
+add<span class="token punctuation">(</span><span class="token number">20</span><span class="token punctuation">)</span>
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br></div></div><details class="custom-block details"><summary>outout</summary> <div class="language- line-numbers-mode"><pre class="language-text"><code>10
+30
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br></div></div></details> <h3 id="python-modules"><a href="#python-modules" class="header-anchor">#</a> Python Modules</h3> <h3 id="project-structure-2"><a href="#project-structure-2" class="header-anchor">#</a> project structure</h3> <div class="language- line-numbers-mode"><div class="highlight-lines"><br><div class="highlighted"> </div><div class="highlighted"> </div><div class="highlighted"> </div><br><br><br></div><pre class="language-text"><code>+-- lesson-01
+|    +-- other_code
+     |    +-- __init__.py  
+     |    +-- code_a.py  
+|    +-- main.py
+|    +-- my_code.py
+</code></pre><div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br></div></div><p>./other_code/__init__.py (2 underscores + init + 2 underscores)</p> <div class="language-py line-numbers-mode"><pre class="language-py"><code></code></pre> <div class="line-numbers-wrapper"></div></div><p>./other_code/code_a.py</p> <div class="language-py line-numbers-mode"><pre class="language-py"><code>a <span class="token operator">=</span> <span class="token number">10</span>
+
+<span class="token keyword">def</span> <span class="token function">say_hello</span><span class="token punctuation">(</span>name<span class="token punctuation">)</span><span class="token punctuation">:</span>
+    <span class="token keyword">print</span><span class="token punctuation">(</span><span class="token string">&quot;Hi, my name is &quot;</span><span class="token operator">+</span>name<span class="token punctuation">)</span></code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br></div></div><p>main.py</p> <div class="language-py line-numbers-mode"><pre class="language-py"><code><span class="token keyword">from</span> other_code <span class="token keyword">import</span> code_a
+
+code_a<span class="token punctuation">.</span>say_hello<span class="token punctuation">(</span><span class="token string">&quot;CodeKids&quot;</span><span class="token punctuation">)</span>
+<span class="token keyword">print</span><span class="token punctuation">(</span>code_a<span class="token punctuation">.</span>a<span class="token punctuation">)</span>
+
+
+<span class="token keyword">from</span> other_code<span class="token punctuation">.</span>code_a <span class="token keyword">import</span> say_hello
+
+say_hello<span class="token punctuation">(</span><span class="token string">&quot;CodeKids&quot;</span><span class="token punctuation">)</span>
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br></div></div><details class="custom-block details"><summary>output</summary> <div class="language- line-numbers-mode"><pre class="language-text"><code>Hi, my name is CodeKids
+10
+Hi, my name is CodeKids
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br></div></div></details></div> <footer class="page-edit"><!----> <!----></footer> <!----> </main></div><div class="global-ui"></div></div>
+    <script src="/assets/js/app.71df5d80.js" defer></script><script src="/assets/js/7.4546102b.js" defer></script><script src="/assets/js/24.8e72dd4c.js" defer></script>
+  </body>
+</html>
