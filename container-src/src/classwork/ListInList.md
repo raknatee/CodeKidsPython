@@ -1,10 +1,6 @@
 # List in List
 
-## project structure
-```
-+-- lesson-02
-|    +-- main.py
-```
+
 
 ## List
 

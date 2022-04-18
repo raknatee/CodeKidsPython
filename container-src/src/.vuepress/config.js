@@ -45,5 +45,14 @@ module.exports = {
     plugins: [
         '@vuepress/plugin-back-to-top',
         '@vuepress/plugin-medium-zoom',
+        [
+            'vuepress-plugin-container',   
+            {
+              type: 'output',
+              defaultTitle: 'OUTPUT',
+              before: info => `<div class="output"><p class="title">${info}</p><div class="language- "><pre class="language-text"><code>`,
+              after: '</code></pre></div></div>',
+            },
+          ],
     ]
 }

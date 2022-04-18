@@ -1,19 +1,21 @@
 # Python
 
 ## ClassWork
-- [HelloWorld (print)]()
-- [Variable, Type of Variable, Operator]()
-- [None value]()
-- [Casting and I/O]()
-- [F string]()
-- [Boolean]()
-- [If and Else]()
-- [List and List's method]()
-- [Loop: While loop]()
-- [Loop: For loop]()
-- [List in List](./classwork/ListInList.md)
-- [Dictionary]()
-- [Data container (Dictionary with Object)]()
+
+1. [HelloWorld (print)](./classwork/HelloWorld.md)
+1. [Variable, Type of Variable, Operator](./classwork/Variable/Variable.md)
+1. [None value]()
+1. [Casting and I/O]()
+1. [F string]()
+1. [Boolean]()
+1. [If and Else]()
+1. [List and List's method]()
+1. [Loop: While loop]()
+1. [Loop: For loop]()
+1. [Function]()
+1. [List in List](./classwork/ListInList.md)
+1. [Dictionary]()
+1. [Data container (Dictionary for data/object representation)]()
 
 # Python-AddOn
 
@@ -34,7 +36,7 @@
 
 - [Multiple Turtles: Bloody Moon](./addon-lesson/AdvancedDrawing/BloodyMoon.md)
 
-## Math Problem & Data structures and Algorithms
+## Math Problems & Data structures and Algorithms
 
 ### Workshop
 - [Find Maximum]()
@@ -43,6 +45,8 @@
 - [Data Structure: Stack]()
 - [Data Structure: Quene]()
 - [Pyramid]()
+- Divide-and-conquer algorithm 
+    - [Fibonacci number]() -> [Sum]() -> [Binary Search]()
 
 ## Microcontroller (ESP32)
 ### Requirement
