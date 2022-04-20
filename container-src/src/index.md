@@ -15,7 +15,7 @@
 1. [Loop: While loop]
 1. [Loop: For loop]
 1. [Function]
-1. [List in List](./classwork/ListInList.md)
+1. [Nested List (List in List)](./classwork/ListInList.md)
 1. [Dictionary]
 1. [Data container (Dictionary for data/object representation)]
 
