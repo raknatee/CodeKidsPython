@@ -9,15 +9,15 @@
 1. [I/O](./classwork/IO.md)
 1. [f-Strings](./classwork/FString.md)
 1. [1st Exercises](./classwork/FirstEx/FirstEx.md)
-1. [Boolean]()
-1. [If and Else]()
-1. [List and List's method]()
-1. [Loop: While loop]()
-1. [Loop: For loop]()
-1. [Function]()
+1. [Boolean](./classwork/Boolean/Boolean.md)
+1. [If and Else]
+1. [List and List's method]
+1. [Loop: While loop]
+1. [Loop: For loop]
+1. [Function]
 1. [List in List](./classwork/ListInList.md)
-1. [Dictionary]()
-1. [Data container (Dictionary for data/object representation)]()
+1. [Dictionary]
+1. [Data container (Dictionary for data/object representation)]
 
 # Python-AddOn
 
@@ -41,27 +41,27 @@
 ## Math Problems & Data structures and Algorithms
 
 ### Workshop
-- [Find Maximum]()
-- [Is that Prime number ?]() -> [Prime number between 1-100]()
-- [Fibonacci number]() -> [Fibonacci series]()
-- [Data Structure: Stack]()
-- [Data Structure: Quene]()
-- [Pyramid]()
+- [Find Maximum]
+- [Is that Prime number ?] -> [Prime number between 1-100]
+- [Fibonacci number] -> [Fibonacci series]
+- [Data Structure: Stack]
+- [Data Structure: Quene]
+- [Pyramid]
 - Divide-and-conquer algorithm 
-    - [Fibonacci number]() -> [Sum]() -> [Binary Search]()
+    - [Fibonacci number] -> [Sum] -> [Binary Search]
 
 ## Microcontroller (ESP32)
 ### Requirement
 
 ::: warning Recommended local Installation
 1. [Thonny](https://thonny.org/)
-2. [Hardware List]()
+2. [Hardware List]
 :::
 
-- [Understand ESP32 and Micropython]()
+- [Understand ESP32 and Micropython]
 
 ### Workshop
-- [Basic LED Electric Circuit]()
+- [Basic LED Electric Circuit]
 
 
 ## Junior Data Engineer
@@ -73,12 +73,12 @@
 2. IDE (For example, [VS Code](https://code.visualstudio.com/))
 :::
 
-- [Python: File Handling]()
-- [Python: String's method]()
+- [Python: File Handling]
+- [Python: String's method]
 
 ### Workshop
-- [How much salary for your employee(s) ?]()
-- [Word Count]()
+- [How much salary for your employee(s) ?]
+- [Word Count]
 
 
 ## Junior Data Scientist
@@ -93,9 +93,9 @@ There are many ways to do this workshop. You can use Cloud servies or install lo
 ::: warning Recommended local Installation
 1. [Python](https://www.python.org/)
 2. IDE (For example, [VS Code](https://code.visualstudio.com/))
-3. Environment manager: [Docker]() or [pipenv]()
+3. Environment manager: [Docker] or [pipenv]
 :::
 
 ### Workshop
-- [How satisfied are you ? (Data Distribution)]()
-- [I know the future! (Linear Regression with Normal Equation)]()
+- [How satisfied are you ? (Data Distribution)]
+- [I know the future! (Linear Regression with Normal Equation)]

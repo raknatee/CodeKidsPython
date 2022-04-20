@@ -141,7 +141,7 @@ print(a)
 4**2 == <span class="pyinput">16</span>
 :::
 
-## Examples
+## Let's practice together
 
 ```py
 a = 4

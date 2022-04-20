@@ -21,7 +21,7 @@ What is your name?: <span class="pyinput">CodeKids</span>
 Nice to meet you!, CodeKids
 :::
 
-## Exercise Time!
+## Let's practice together
 
 - Find the sum of two numbers.
 :::output
