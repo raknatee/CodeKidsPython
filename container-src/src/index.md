@@ -1,7 +1,7 @@
-# Python
+![img](./logo.png)
 
-## ClassWork
-
+# ClassWork
+ 
 1. [HelloWorld (print)](./classwork/HelloWorld.md)
 1. [Variable, Type of Variable, Operator](./classwork/Variable/Variable.md)
 1. [None value](./classwork/NoneValue.md)
