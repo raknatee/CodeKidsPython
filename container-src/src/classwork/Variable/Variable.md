@@ -35,6 +35,7 @@ False
 Assign value of right side to left side.
 :::
 
+### Assignment
 ```py
 a = 10
 print(a)
@@ -45,6 +46,52 @@ print(a)
 10
 :::
 
+### Replacement
+```py
+a = 10
+print(a)
+a = 30
+print(a)
+```
+
+::: details output
+::: output
+10
+30
+:::
+
+::: details Click me for more
+```py{1}
+a = 10
+print(a)
+a = 30
+print(a)
+```
+![img](./replace/a-1.svg)
+***
+![img](./replace/a-2.svg)
+```py{3}
+a = 10
+print(a)
+a = 30
+print(a)
+```
+![img](./replace/a-3.svg)
+
+:::
+
+```py
+a = 10
+print(a)
+a = "Hello"
+print(a)
+```
+::: details output
+:::output
+10
+Hello
+:::
+### Changing
 
 ```py
 a = 10
@@ -58,6 +105,23 @@ print(a)
 11
 :::
 
+::: details Click me for more
+```py{1}
+a = 10
+print(a)
+a = a + 1
+print(a)
+```
+![img](./changing/a-1.svg)
+```py{3}
+a = 10
+print(a)
+a = a + 1
+print(a)
+```
+![img](./changing/a-2.svg)
+![img](./changing/a-3.svg)
+:::
 
 # Operator
 | Syntax      | Description |
