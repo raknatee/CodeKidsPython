@@ -1,0 +1,9 @@
+version: "3.8"
+services:
+  app:
+    build: 
+      context: .
+    volumes:
+      - ./src:/root/src
+      - ../data:/root/data
+      - ./.vscode-server:/root/.vscode-server

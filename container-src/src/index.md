@@ -79,7 +79,7 @@
 
 ### Workshop
 - [How much salary for your employee(s)?]
-- [Word Count]
+- [Word Count](./addon-lesson/DE/WordCount.md)
 
 
 ## Junior Data Scientist
@@ -95,8 +95,29 @@ There are many ways to do this workshop. You can use Cloud servies or install lo
 1. [Python](https://www.python.org/)
 2. IDE (For example, [VS Code](https://code.visualstudio.com/))
 3. (Optional) Environment manager: [Docker] or [pipenv]
+4. Dependencies
+
+- Global ```pip``` for Windows
+
+```sh
+pip install "numpy==1.22.3"
+pip install "pandas==1.4.2"
+pip install "matplotlib==3.5.1"
+pip install "ipykernel==6.13.0"
+```
+
+- Global ```pip``` for MacOSX and Linux Distributions
+
+```sh
+pip3 install "numpy==1.22.3"
+pip3 install "pandas==1.4.2"
+pip3 install "matplotlib==3.5.1"
+pip3 install "ipykernel==6.13.0"
+```
 :::
 
+- [Basic Graph with Matplotlib](./addon-lesson/DS/BasicGraph.md)
+
 ### Workshop
-- [How satisfied are you? (Data Distribution)]
+- [How satisfied are you? (Data Distribution)](./addon-lesson/DS/DataDis.md)
 - [I know the future! (Linear Regression with Normal Equation)]
