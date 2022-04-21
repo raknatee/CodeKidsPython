@@ -17,8 +17,8 @@
 1. [2nd Exercises](./classwork/SecondEx/SecondEx.md)
 1. [Function](./classwork/Function.md)
 1. [Nested List (List in List)](./classwork/ListInList.md)
-1. [Dictionary]
-1. [Data container (Dictionary for data/object representation)]
+1. [Dictionary](./classwork/Dict.md)
+1. [Data container (Dictionary for data/object representation)](./classwork/DataContainer.md)
 
 # Python-AddOn
 
@@ -42,7 +42,7 @@
 ## Math Problems & Data structures and Algorithms
 
 ### Workshop
-- [Is that Prime number ?] -> [Prime number between 1-100]
+- [Is that Prime number?](./addon-lesson/math-dsa/Prime.md) -> [Prime number between 1-100](./addon-lesson/math-dsa/Primes.md)
 - [Fibonacci number] -> [Fibonacci series]
 - [Data Structure: Stack]
 - [Data Structure: Quene]
@@ -78,7 +78,7 @@
 - [Python: String's method]
 
 ### Workshop
-- [How much salary for your employee(s) ?]
+- [How much salary for your employee(s)?]
 - [Word Count]
 
 
@@ -98,5 +98,5 @@ There are many ways to do this workshop. You can use Cloud servies or install lo
 :::
 
 ### Workshop
-- [How satisfied are you ? (Data Distribution)]
+- [How satisfied are you? (Data Distribution)]
 - [I know the future! (Linear Regression with Normal Equation)]
