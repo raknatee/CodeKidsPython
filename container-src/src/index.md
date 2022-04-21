@@ -43,7 +43,7 @@
 
 ### Workshop
 - [Is that Prime number?](./addon-lesson/math-dsa/Prime.md) -> [Prime number between 1-100](./addon-lesson/math-dsa/Primes.md)
-- [Fibonacci number] -> [Fibonacci series]
+- [Fibonacci Number](./addon-lesson/math-dsa/fibon.md) -> [Fibonacci Series](./addon-lesson/math-dsa/fibon-s.md)
 - [Data Structure: Stack]
 - [Data Structure: Quene]
 - [Bubblesort]
@@ -74,8 +74,8 @@
 2. IDE (For example, [VS Code](https://code.visualstudio.com/))
 :::
 
-- [Python: File Handling]
-- [Python: String's method]
+- [Python: String's method](./addon-lesson/DE/String.md)
+- [Python: File Handling](./addon-lesson/DE/File.md)
 
 ### Workshop
 - [How much salary for your employee(s)?]
@@ -94,7 +94,7 @@ There are many ways to do this workshop. You can use Cloud servies or install lo
 ::: warning Recommended local Installation
 1. [Python](https://www.python.org/)
 2. IDE (For example, [VS Code](https://code.visualstudio.com/))
-3. Environment manager: [Docker] or [pipenv]
+3. (Optional) Environment manager: [Docker] or [pipenv]
 :::
 
 ### Workshop

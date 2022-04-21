@@ -54,5 +54,14 @@ module.exports = {
               after: '</code></pre></div></div>',
             },
           ],
+        [
+            'vuepress-plugin-mathjax',
+            {
+              target: 'svg',
+              macros: {
+                '*': '\\times',
+              },
+            }
+        ],
     ]
 }
