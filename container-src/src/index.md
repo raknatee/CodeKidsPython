@@ -114,6 +114,20 @@ pip3 install "pandas==1.4.2"
 pip3 install "matplotlib==3.5.1"
 pip3 install "ipykernel==6.13.0"
 ```
+
+- Locally install for project using ```pipenv```
+```sh
+# Windows
+pip install pipenv
+# MacOSX and Linux Distributions
+pip3 install pipenv
+```
+```sh
+pipenv install "numpy==1.22.3"
+pipenv install "pandas==1.4.2"
+pipenv install "matplotlib==3.5.1"
+pipenv install "ipykernel==6.13.0"
+```
 :::
 
 - [Basic Graph with Matplotlib](./addon-lesson/DS/BasicGraph.md)
