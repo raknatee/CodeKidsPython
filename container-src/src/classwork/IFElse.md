@@ -2,7 +2,7 @@
 
 ## If
 
-- ```if``` will take action when condition is ```True```
+- ```if``` will take action when condition is ```True```.
 
 ```py
 if True:
@@ -231,7 +231,7 @@ if(a==b):
 :::
 
 ## Else
-
+- ```else``` will take action if ```if``` statement which matchs with itself, is ```False```.
 ```py
 if False:
     print("1")

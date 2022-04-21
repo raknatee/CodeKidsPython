@@ -11,8 +11,8 @@
 1. [1st Exercises](./classwork/FirstEx/FirstEx.md)
 1. [Boolean](./classwork/Boolean/Boolean.md)
 1. [If and Else](./classwork/IFElse.md)
-1. [List and List's method]
-1. [Loop: While loop]
+1. [List and List's method](./classwork/List/List.md)
+1. [Loop: While loop](./classwork/WhileLoop/WhileLoop.md)
 1. [Loop: For loop]
 1. [Function]
 1. [Nested List (List in List)](./classwork/ListInList.md)
