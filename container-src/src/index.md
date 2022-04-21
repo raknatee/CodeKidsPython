@@ -1,6 +1,6 @@
 ![img](./logo.png)
 
-# ClassWork
+# ClassWorks
  
 1. [HelloWorld (print)](./classwork/HelloWorld.md)
 1. [Variable, Type of Variable, Operator](./classwork/Variable/Variable.md)
@@ -13,8 +13,9 @@
 1. [If and Else](./classwork/IFElse.md)
 1. [List and List's method](./classwork/List/List.md)
 1. [Loop: While loop](./classwork/WhileLoop/WhileLoop.md)
-1. [Loop: For loop]
-1. [Function]
+1. [Loop: For loop](./classwork/ForLoop/ForLoop.md)
+1. [2nd Exercises](./classwork/SecondEx/SecondEx.md)
+1. [Function](./classwork/Function.md)
 1. [Nested List (List in List)](./classwork/ListInList.md)
 1. [Dictionary]
 1. [Data container (Dictionary for data/object representation)]
@@ -41,11 +42,11 @@
 ## Math Problems & Data structures and Algorithms
 
 ### Workshop
-- [Find Maximum]
 - [Is that Prime number ?] -> [Prime number between 1-100]
 - [Fibonacci number] -> [Fibonacci series]
 - [Data Structure: Stack]
 - [Data Structure: Quene]
+- [Bubblesort]
 - [Pyramid]
 - Divide-and-conquer algorithm 
     - [Fibonacci number] -> [Sum] -> [Binary Search]

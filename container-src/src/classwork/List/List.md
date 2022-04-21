@@ -57,6 +57,20 @@ print(count)
 4
 :::
 
+### in
+```py
+a = [3, 23, 5, "Hello"]
+
+bool1 = 23 in a
+bool2 = 50 in a
+print(bool1)
+print(bool2)
+```
+::: output
+True
+False
+:::
+
 ### append
 ```py
 a = [3, 23, 5, "Hello"]
