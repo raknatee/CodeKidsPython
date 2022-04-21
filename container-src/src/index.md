@@ -10,7 +10,7 @@
 1. [f-Strings](./classwork/FString.md)
 1. [1st Exercises](./classwork/FirstEx/FirstEx.md)
 1. [Boolean](./classwork/Boolean/Boolean.md)
-1. [If and Else]
+1. [If and Else](./classwork/IFElse.md)
 1. [List and List's method]
 1. [Loop: While loop]
 1. [Loop: For loop]
