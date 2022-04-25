@@ -78,7 +78,7 @@
 - [Python: File Handling](./addon-lesson/DE/File.md)
 
 ### Workshop
-- [How much salary for your employee(s)?]
+- [How much salary for your employee(s)?](./addon-lesson/DE/Salary.md)
 - [Word Count](./addon-lesson/DE/WordCount.md)
 
 
