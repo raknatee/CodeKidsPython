@@ -134,4 +134,4 @@ pipenv install "ipykernel==6.13.0"
 
 ### Workshop
 - [How satisfied are you? (Data Distribution)](./addon-lesson/DS/DataDis.md)
-- [I know the future! (Linear Regression with Normal Equation)]
+- [I know the future! (Linear Regression with Normal Equation)](./addon-lesson/DS/LR_with_NE.md)
