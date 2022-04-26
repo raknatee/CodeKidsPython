@@ -4,6 +4,8 @@
 ```py
 print("HelloWorld")
 ```
+
+::: details output
 ::: output
 HelloWorld  
 ::: 
@@ -17,6 +19,7 @@ print("HelloWorld3")
 print("HelloWorld4", end="!")
 ```
 
+::: details output
 ::: output
 HelloWorld1HelloWorld2,HelloWorld3
 HelloWorld4
