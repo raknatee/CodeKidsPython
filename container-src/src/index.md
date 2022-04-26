@@ -2,6 +2,14 @@
 
 # ClassWorks
  
+## Requirement
+
+::: warning Recommended local Installation
+1. [Python](https://www.python.org/) ( recommands Python Version 3.10 ++)
+    - IDLE for Python IDE (alreadys installed with Python)
+2. (Optional) IDE (For example, [VS Code](https://code.visualstudio.com/))
+:::
+
 1. [HelloWorld (print)](./classwork/HelloWorld.md)
 1. [Variable, Type of Variable, Operator](./classwork/Variable/Variable.md)
 1. [None value](./classwork/NoneValue.md)
@@ -94,7 +102,8 @@ There are many ways to do this workshop. You can use Cloud servies or install lo
 ::: warning Recommended local Installation
 1. [Python](https://www.python.org/)
 2. IDE (For example, [VS Code](https://code.visualstudio.com/))
-3. (Optional) Environment manager: [Docker] or [pipenv]
+3. (Optional) Environment manager: [Docker](./addon-lesson/DS/env/Docker/Index.md) or **pipenv**
+ - If you decided to use **Docker**, you can skip 4th step.
 4. Dependencies
 
 - Global ```pip``` for Windows
@@ -122,12 +131,23 @@ pip install pipenv
 # MacOSX and Linux Distributions
 pip3 install pipenv
 ```
+
+!!!!!!!! Please prepare **your project folder** before doing this. !!!!!!!!
 ```sh
+pipenv install --python 3.10
 pipenv install "numpy==1.22.3"
 pipenv install "pandas==1.4.2"
 pipenv install "matplotlib==3.5.1"
 pipenv install "ipykernel==6.13.0"
 ```
+You might see those files in your project folder.
+
+```
++-- your-project-folder
+|    +-- Pipfile		
+|    +-- Pipfile.lock
+```
+
 :::
 
 - [Basic Graph with Matplotlib](./addon-lesson/DS/BasicGraph.md)
