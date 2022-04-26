@@ -46,7 +46,7 @@
 - [Fibonacci Number](./addon-lesson/math-dsa/fibon.md) -> [Fibonacci Series](./addon-lesson/math-dsa/fibon-s.md)
 - [Data Structure: Stack]
 - [Data Structure: Quene]
-- [Bubblesort]
+- [Bubble sort](./addon-lesson/math-dsa/BubbleSort.md)
 - [Pyramid]
 - Divide-and-conquer algorithm 
     - [Fibonacci number] -> [Sum] -> [Binary Search]
