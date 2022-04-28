@@ -41,7 +41,7 @@
 
 - [Python: Import and Modules](./addon-lesson/AdvancedDrawing/import.md)
 
-### Workshop
+### Workshops
 
 - [I AM IRONMAN](./addon-lesson/AdvancedDrawing/IAmIronman-1.md) -> [I AM IRONMAN with animation](./addon-lesson/AdvancedDrawing/IAmIronman-2.md)
 
@@ -49,7 +49,7 @@
 
 ## Math Problems & Data structures and Algorithms
 
-### Workshop
+### Workshops
 - [Is that Prime number?](./addon-lesson/math-dsa/Prime.md) -> [Prime number between 1-100](./addon-lesson/math-dsa/Primes.md)
 - [Fibonacci Number](./addon-lesson/math-dsa/fibon.md) -> [Fibonacci Series](./addon-lesson/math-dsa/fibon-s.md)
 - [Data Structure: Stack]
@@ -69,7 +69,7 @@
 
 - [Understand ESP32 and Micropython]
 
-### Workshop
+### Workshops
 - [Basic LED Electric Circuit]
 
 
@@ -85,7 +85,7 @@
 - [Python: String's method](./addon-lesson/DE/String.md)
 - [Python: File Handling](./addon-lesson/DE/File.md)
 
-### Workshop
+### Workshops
 - [How much salary for your employee(s)?](./addon-lesson/DE/Salary.md)
 - [Word Count](./addon-lesson/DE/WordCount.md)
 
@@ -152,6 +152,6 @@ You might see those files in your project folder.
 
 - [Basic Graph with Matplotlib](./addon-lesson/DS/BasicGraph.md)
 
-### Workshop
+### Workshops
 - [How satisfied are you? (Data Distribution)](./addon-lesson/DS/DataDis.md)
 - [I know the future! (Linear Regression with Normal Equation)](./addon-lesson/DS/LR_with_NE.md)
