@@ -56,8 +56,8 @@
 - [Data Structure: Quene]
 - [Bubble sort](./addon-lesson/math-dsa/BubbleSort.md)
 - [Pyramid]
-- Divide-and-conquer algorithm 
-    - [Fibonacci number] -> [Sum] -> [Binary Search]
+- [Divide-and-conquer algorithm](./addon-lesson/math-dsa/Divide-and-conquer/Index.md)
+    - [Sum](./addon-lesson/math-dsa/Divide-and-conquer/Sum.md) -> [Fibonacci number](./addon-lesson/math-dsa/Divide-and-conquer/Fibon.md) -> [Binary Search]
 
 ## Microcontroller (ESP32)
 ### Requirement
