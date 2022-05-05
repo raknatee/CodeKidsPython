@@ -164,6 +164,22 @@ while( i<10 ):
 <hr class="line">
 :::
 
+
+::: details output
+:::output
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+:::
+
+
 ```py
 i = 0
 while( i<10 ):
