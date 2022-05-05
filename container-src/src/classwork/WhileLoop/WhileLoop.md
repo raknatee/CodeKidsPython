@@ -164,6 +164,35 @@ while( i<10 ):
 <hr class="line">
 :::
 
+```py
+i = 0
+while( i<10 ):
+	print(i)
+	i = i+2
+```
+::: details output
+:::output
+0
+2
+4
+6
+8
+:::
+
+```py
+i = 1
+while( i<10 ):
+	print(i)
+	i = i*2
+```
+
+::: details output
+:::output
+1
+2
+4
+8
+:::
 
 
 ## Break and Continue
