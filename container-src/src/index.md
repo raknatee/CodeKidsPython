@@ -44,7 +44,7 @@
 ### Workshops
 
 - [I AM IRONMAN](./addon-lesson/AdvancedDrawing/IAmIronman-1.md) -> [I AM IRONMAN with animation](./addon-lesson/AdvancedDrawing/IAmIronman-2.md)
-
+- [MyMinecraft](./addon-lesson/AdvancedDrawing/MyMinecraft/MyMinecraft.md)
 - [Multiple Turtles: Bloody Moon](./addon-lesson/AdvancedDrawing/BloodyMoon.md)
 
 ## Math Problems & Data structures and Algorithms
@@ -55,7 +55,8 @@
 - [Data Structure: Stack]
 - [Data Structure: Quene]
 - [Bubble sort](./addon-lesson/math-dsa/BubbleSort.md)
-- [Pyramid]
+- Pyramid
+    - [Stairs](./addon-lesson/math-dsa/Pyramid/1.md) -> [Arithmetic progression](./addon-lesson/math-dsa/Pyramid/AP.md) -> [Pyramid](./addon-lesson/math-dsa/Pyramid/2.md) -> [Inverted Pyramid]
 - [Divide-and-conquer algorithm](./addon-lesson/math-dsa/Divide-and-conquer/Index.md)
     - [Sum](./addon-lesson/math-dsa/Divide-and-conquer/Sum.md) -> [Fibonacci number](./addon-lesson/math-dsa/Divide-and-conquer/Fibon.md) -> [Binary Search]
 
