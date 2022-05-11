@@ -1,4 +1,4 @@
-# First Exercises
+# Second Exercises
 
 ## Find a sum until enter 0
 
@@ -14,26 +14,26 @@ Enter number: <span class="pyinput">0</span>
 ```py
 sum=0
 while(True):
-    income=input("Enter number: ")
-    if(income == "0"):
+    incoming=input("Enter number: ")
+    if(incoming == "0"):
         break
     else:
-        sum+=float(income)
+        sum+=float(incoming)
 print(sum)
 ```
 or
 ```py
 data=[]
 while(True):
-    income=input("Enter number: ")
-    if(income== "0" ):
+    incoming=input("Enter number: ")
+    if(incoming== "0" ):
         sum=0
         for number in data:
             sum+=number
         print(sum)
         break
     else:
-        data.append(float(income))
+        data.append(float(incoming))
 ```
 :::
 
@@ -85,7 +85,7 @@ Enter a command: <span class="pyinput">60</span>
 Enter a command: <span class="pyinput">0</span>
 Enter a command: <span class="pyinput">5</span>
 Enter a command: <span class="pyinput">done</span>
-max: 60
+max: 60.0
 :::
 
 :::output

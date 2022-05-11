@@ -48,4 +48,5 @@ print(friends[2])           # ["Anthony", 8]
 print(len(friends[2]))      # 2
 
 print(friends[3])           # Larry
+print(len(friends[3]))      # 5
 ```

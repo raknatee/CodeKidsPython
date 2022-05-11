@@ -42,8 +42,8 @@ Hi, My name is CodeKit. I am 5 years old.
 
 ## return keyword
 
-- ```return``` keyword is used for return some value back to somebody who make a call to particular function.
-- Moreover, if the ```return``` is executed, the function would **stop** itself.
+- ```return``` keyword is used for returning some values back to somebody who make a **call** to particular function.
+- Moreover, if the ```return``` is executed, the function would be **stopped** itself.
 
 ```py
 def my_plus(a, b):
