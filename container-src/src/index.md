@@ -1,8 +1,11 @@
 ![img](favicon.ico)
 
+
+
 # ClassWorks
  
-## Requirement
+
+0. [Introduction: What is Python? What can do with Python?]
 
 ::: warning Recommended local Installation
 1. [Python](https://www.python.org/) ( recommands Python Version 3.10 ++)
