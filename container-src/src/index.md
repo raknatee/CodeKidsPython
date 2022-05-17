@@ -156,3 +156,16 @@ You might see those files in your project folder.
 ### Workshops
 - [How satisfied are you? (Data Distribution)](./addon-lesson/DS/DataDis.md)
 - [I know the future! (Linear Regression with Normal Equation)](./addon-lesson/DS/LR_with_NE.md)
+
+## Level up! Junior Data Engineer & Data Scientist
+
+### Requirements
+
+- [Junior Data Engineer](#junior-data-engineer)
+- [Junior Data Scientist](#junior-data-scientist)
+- [Python String and List Slicing]
+- [Basic Pandas]
+
+### Workshop(s)
+
+- [Covid analysis]
