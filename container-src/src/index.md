@@ -31,7 +31,7 @@
 1. [Dictionary](./classwork/Dict.md)
 1. [Data container (Dictionary for data/object representation)](./classwork/DataContainer.md)
 
-# Python-AddOn
+# Pythonic Python
 
 ## Advanced Drawing
 
