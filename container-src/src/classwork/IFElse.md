@@ -8,7 +8,8 @@
 if True:
     print("1")
 ```
-:::output
+::: details output
+::: output
 1
 :::
 
@@ -16,7 +17,8 @@ if True:
 if False:
     print("1")
 ```
-:::output
+::: details output
+::: output
 :::
 
 ### Let's practice together
