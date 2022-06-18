@@ -240,7 +240,8 @@ if False:
 else:
     print("2")
 ```
-:::output
+::: details output
+::: output
 2
 :::
 

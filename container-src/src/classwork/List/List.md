@@ -40,9 +40,12 @@ a[3] = "HelloWorld"
 a[1] = a[0] + a[2]
 print(a)
 ```
+
+::: details output
 ::: output
 [3, 8, 5, 'HelloWorld']
 :::
+
 
 ## List's method
 
@@ -53,6 +56,7 @@ a = [3, 23, 5, "Hello"]
 count = len(a)
 print(count)
 ```
+::: details output
 ::: output
 4
 :::
@@ -66,10 +70,14 @@ bool2 = 50 in a
 print(bool1)
 print(bool2)
 ```
+
+
+::: details output
 ::: output
 True
 False
 :::
+
 
 ### append
 ```py
@@ -77,9 +85,12 @@ a = [3, 23, 5, "Hello"]
 a.append(20)
 print(a)
 ```
+
+::: details output
 ::: output
 [3, 23, 5, 'Hello', 20]
 :::
+
 
 ### del
 ```py
@@ -87,6 +98,8 @@ a = [3, 23, 5, "Hello"]
 del a[2]
 print(a)
 ```
+
+::: details output
 ::: output
 [3, 23, 'Hello']
 :::
@@ -97,9 +110,13 @@ a = [3, 23, 5, "Hello"]
 a.remove("Hello")
 print(a)
 ```
+
+
+::: details output
 ::: output
 [3, 23, 5]
 :::
+
 
 ### index
 
@@ -108,6 +125,7 @@ a = [3, 23, 5, "Hello"]
 where_is_hello = a.index("Hello")
 print(where_is_hello)
 ```
+::: details output
 ::: output
 3
 :::
