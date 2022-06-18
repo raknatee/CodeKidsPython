@@ -5,7 +5,7 @@
 # ClassWorks
  
 
-0. [Introduction: What is Python? What can do with Python?]
+0. [Introduction: What is Python? What can we do with Python?](./classwork/Introduction.md)
 
 ::: warning Recommended local Installation
 1. [Python](https://www.python.org/) ( recommands Python Version 3.10 ++)
@@ -66,15 +66,27 @@
 ## Microcontroller (ESP32)
 ### Requirement
 
+
+::: tip Reference
+[https://www.tutorialspoint.com/digital_circuits/index.htm](https://www.tutorialspoint.com/digital_circuits/index.htm)
+:::
+
 ::: warning Recommended local Installation
 1. [Thonny](https://thonny.org/)
 2. [Hardware List]
 :::
 
-- [Understand ESP32 and Micropython]
+1. [Understand Basic Circuit and Breadboard]
+1. [Switch]
+1. [Understand ESP32 and Micropython]
+1. [Flash ESP32]
+1. [ESP32 LED On/Off]
+1. [LED 12V]
+1. [Relay 5V with LED 12V](./addon-lesson/microcontroller/relay)
 
 ### Workshops
-- [Basic LED Electric Circuit]
+- Digital Circuits
+    - [Boolean functions and Sum of Product (SOP)] -> [Decoders and Encoders] -> [8-LED running light circuit with ESP32 and 3-bit Decoder]
 
 
 ## Junior Data Engineer
