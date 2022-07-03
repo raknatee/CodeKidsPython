@@ -1,11 +1,12 @@
+# Python and Pythonic Python
+
 ![img](favicon.ico)
 
 
 
-# ClassWorks
- 
+## ClassWorks
 
-0. [Introduction: What is Python? What can we do with Python?](./classwork/Introduction.md)
+### 0. [Introduction: What is Python? What can we do with Python?](./classwork/Introduction.md)
 
 ::: warning Recommended local Installation
 1. [Python](https://www.python.org/) ( recommands Python Version 3.10 ++)
@@ -13,46 +14,81 @@
 2. (Optional) IDE (For example, [VS Code](https://code.visualstudio.com/))
 :::
 
-1. [HelloWorld (print)](./classwork/HelloWorld.md)
-1. [Variable, Type of Variable, Operator](./classwork/Variable/Variable.md)
-1. [None value](./classwork/NoneValue.md)
-1. [Casting](./classwork/Casting.md)
-1. [I/O](./classwork/IO.md)
-1. [f-Strings](./classwork/FString.md)
-1. [1st Exercises](./classwork/FirstEx/FirstEx.md)
-1. [Boolean](./classwork/Boolean/Boolean.md)
-1. [If and Else](./classwork/IFElse.md)
-1. [List and List's method](./classwork/List/List.md)
-1. [Loop: While loop](./classwork/WhileLoop/WhileLoop.md)
-1. [Loop: For loop](./classwork/ForLoop/ForLoop.md)
-1. [2nd Exercises](./classwork/SecondEx/SecondEx.md)
-1. [Function](./classwork/Function.md)
-1. [Nested List (List in List)](./classwork/ListInList.md)
-1. [Dictionary](./classwork/Dict.md)
-1. [Data container (Dictionary for data/object representation)](./classwork/DataContainer.md)
+### 1. [HelloWorld (print)](./classwork/HelloWorld.md)
+### 2. [Variable, Type of Variable, Operator](./classwork/Variable/Variable.md)
+### 3. [None value](./classwork/NoneValue.md)
+### 4. [Casting](./classwork/Casting.md)
+### 5. [I/O](./classwork/IO.md)
+### 6. [f-Strings](./classwork/FString.md)
+### 7. [1st Exercises](./classwork/FirstEx/FirstEx.md)
+### 8. [Boolean](./classwork/Boolean/Boolean.md)
+### 9. [If and Else](./classwork/IFElse.md)
+### 10. [List and List's method](./classwork/List/List.md)
+### 11. [Loop: While loop](./classwork/WhileLoop/WhileLoop.md)
+### 12. [Loop: For loop](./classwork/ForLoop/ForLoop.md)
+### 13. [2nd Exercises](./classwork/SecondEx/SecondEx.md)
+### 14. [Function](./classwork/Function.md)
+### 15. [Nested List (List in List)](./classwork/ListInList.md)
+### 16. [Dictionary](./classwork/Dict.md)
+### 17. [Data container (Dictionary for data/object representation)](./classwork/DataContainer.md)
 
-# Pythonic Python
+## Pythonic Python
 
-## Advanced Drawing
+### Pythonic Way of Coding 
 
-### Requirement
+- [Python: Python Package Manager - pipenv]
+- Object-Oriented Programming Paradigm
+    1. [Python: OOP - Class and Object]
+    1. [Python: pass keyword]
+    1. [Python: OOP - Class Attribute and Object Attribute]
+    1. [Python: OOP - Static method] -> [Python: OOP - Class method]
+    1. [Python: OOP - Inheritance]
+    1. [Python: OOP - Override]
+
+
+- [Python: Import and Modules](./pythonic/import.md)
+- [Python: String's method](./pythonic/String.md)
+- [Python: String and List Slicing]
+- [Python: List Comprehension]
+- [Python: Dictionary Comprehension]
+- Functional Programming Paradigm
+    1. [Python: Functional Programming - Pure Function and lambda]
+    1. [Python: Functional Programming - Side Effects]
+    1. [Python: map, filter, sorted and reduce]
+    1. [Python: Decorators]
+- Type Hinting (Requires OOP and Functional Programming)
+    1. [Static type VS Dynamic type]
+    1. [Python: Type Hinting - Basic type and Class]
+    1. [Python: Type Hinting - Function Parameter Type Hinting and Callable]
+    1. [Python: Type Hinting - OOP Polymorphism]
+    1. [Python: typing module]
+    1. [Python: Overload]
+    1. [Python: Generic]
+- [Python: File Handling](./pythonic/File.md)
+- [Python: Error Handling - Try&Except and raise]
+- [Python and Computer: Threading]
+- [Python: Generators and yield]
+
+### Advanced Drawing
+
+#### Requirement
 
 ::: warning Recommended local Installation
 1. [Python](https://www.python.org/)
 2. IDE (For example, [VS Code](https://code.visualstudio.com/))
 :::
 
-- [Python: Import and Modules](./addon-lesson/AdvancedDrawing/import.md)
+- [Python: Import and Modules](./pythonic/import.md)
 
-### Workshops
+#### Workshops
 
 - [I AM IRONMAN](./addon-lesson/AdvancedDrawing/IAmIronman-1.md) -> [I AM IRONMAN with animation](./addon-lesson/AdvancedDrawing/IAmIronman-2.md)
 - [MyMinecraft](./addon-lesson/AdvancedDrawing/MyMinecraft/MyMinecraft.md)
 - [Multiple Turtles: Bloody Moon](./addon-lesson/AdvancedDrawing/BloodyMoon.md)
 
-## Math Problems & Data structures and Algorithms
+### Math Problems & Data structures and Algorithms
 
-### Workshops
+#### Workshops
 - [Is that Prime number?](./addon-lesson/math-dsa/Prime.md) -> [Prime number between 1-100](./addon-lesson/math-dsa/Primes.md)
 - [Fibonacci Number](./addon-lesson/math-dsa/fibon.md) -> [Fibonacci Series](./addon-lesson/math-dsa/fibon-s.md)
 - [Data Structure: Stack]
@@ -63,12 +99,12 @@
 - [Divide-and-conquer algorithm](./addon-lesson/math-dsa/Divide-and-conquer/Index.md)
     - [Sum](./addon-lesson/math-dsa/Divide-and-conquer/Sum.md) -> [Fibonacci number](./addon-lesson/math-dsa/Divide-and-conquer/Fibon.md) -> [Binary Search]
 
-## Microcontroller (ESP32)
-### Requirement
+### Microcontroller (ESP32)
+#### Requirement
 
 
 ::: tip Reference
-[https://www.tutorialspoint.com/digital_circuits/index.htm](https://www.tutorialspoint.com/digital_circuits/index.htm)
+[https://www.tutorialspoint.com/digital_circuits](https://www.tutorialspoint.com/digital_circuits)
 :::
 
 ::: warning Recommended local Installation
@@ -84,31 +120,42 @@
 1. [LED 12V]
 1. [Relay 5V with LED 12V](./addon-lesson/microcontroller/relay)
 
-### Workshops
+#### Workshops
 - Digital Circuits
     - [Boolean functions and Sum of Product (SOP)] -> [Decoders and Encoders] -> [8-LED running light circuit with ESP32 and 3-bit Decoder]
 
+### Junior Cryptographer
 
-## Junior Data Engineer
+#### Requirements
+- [Encoding and Decoding - base64 and utf-8]
+- [Encryption and Decryption (concept)] 
 
-### Requirement
+#### Workshops
+- [Symmetric Key Encryption]
+- [Password Hashing]
+- [ASymmetric Key Encryption / Public Key Encryption]
+
+
+### Junior Data Engineer
+
+#### Requirement
 
 ::: warning Recommended local Installation
 1. [Python](https://www.python.org/)
 2. IDE (For example, [VS Code](https://code.visualstudio.com/))
 :::
 
-- [Python: String's method](./addon-lesson/DE/String.md)
-- [Python: File Handling](./addon-lesson/DE/File.md)
+- [Python: String's method](./pythonic/String.md)
+- [Python: File Handling](./pythonic/File.md)
 
-### Workshops
+#### Workshops
 - [How much salary for your employee(s)?](./addon-lesson/DE/Salary.md)
 - [Word Count](./addon-lesson/DE/WordCount.md)
 
 
-## Junior Data Scientist
+### Junior Data Scientist
 
-### Requirement
+#### Requirement
 There are many ways to do this workshop. You can use Cloud servies or install locally.
 
 ::: warning Recommended Cloud service
@@ -168,19 +215,19 @@ You might see those files in your project folder.
 
 - [Basic Graph with Matplotlib](./addon-lesson/DS/BasicGraph.md)
 
-### Workshops
+#### Workshops
 - [How satisfied are you? (Data Distribution)](./addon-lesson/DS/DataDis.md)
 - [I know the future! (Linear Regression with Normal Equation)](./addon-lesson/DS/LR_with_NE.md)
 
-## Level up! Junior Data Engineer & Data Scientist
+### Level up! Junior Data Engineer & Data Scientist
 
-### Requirements
+#### Requirements
 
 - [Junior Data Engineer](#junior-data-engineer)
 - [Junior Data Scientist](#junior-data-scientist)
-- [Python String and List Slicing]
+- [Python: String and List Slicing]
 - [Basic Pandas]
 
-### Workshop(s)
+#### Workshop(s)
 
 - [Covid analysis]

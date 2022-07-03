@@ -26,7 +26,7 @@ introduce()
 Hi, My name is CodeKids. I am 4 years old.
 :::
 
-## Function argument(s)
+## Function parameter(s) and argument(s)
 
 ```py
 def introduce(name, age):
@@ -136,3 +136,5 @@ print(data2)
 7
 34
 :::
+
+## ***Exercise Book*** 14.Function

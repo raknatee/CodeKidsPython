@@ -24,3 +24,5 @@ print(f"Hi! My name is {name}. I am {age} years old.")
 :::output
 Hi! My name is CodeKids. I am 4 years old.
 :::
+
+## ***Exercise Book*** 06.f-Strings

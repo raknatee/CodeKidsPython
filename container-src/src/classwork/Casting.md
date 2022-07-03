@@ -132,3 +132,4 @@ print(type(b))
 
 
 
+## ***Exercise Book*** 04.Casting

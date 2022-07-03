@@ -171,3 +171,6 @@ Traceback (most recent call last):
   File "\<string\>", line 3, in \<module\>
 <span class="error">TypeError: unsupported operand type(s) for +: 'int' and 'str'</span>
 :::
+
+
+## ***Exercise Book*** 02.Variable

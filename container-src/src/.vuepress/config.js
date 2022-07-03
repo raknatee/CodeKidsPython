@@ -34,6 +34,12 @@ module.exports = {
         editLinkText: '',
         lastUpdated: false,
         search: false,
+        // displayAllHeaders: true,
+        // sidebar:[
+        //   ['/',"Python"]
+        // ],
+        sidebar: 'auto',
+
 
     },
     markdown: {

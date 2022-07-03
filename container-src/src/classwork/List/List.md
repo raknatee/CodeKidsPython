@@ -172,3 +172,4 @@ print(f"get {g[i]}")
 :::
 
 
+## ***Exercise Book*** 10.List

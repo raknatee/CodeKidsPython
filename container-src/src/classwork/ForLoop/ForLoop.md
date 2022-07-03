@@ -67,3 +67,5 @@ for i in range(1,13):
     print(f"{n} X {i} = {n*i}")
 ```
 :::
+
+## ***Exercise Book*** 12.For Loop
