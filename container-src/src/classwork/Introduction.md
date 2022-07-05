@@ -4,6 +4,34 @@
 
 [PrePython: Lesson 1 - Introduction](https://prepython.codekids.raknatee.dev/lessons/01/#introduction)
 
+## Control Flow
+There are only 3 statements for using in **every algorithm**. On the other hand, it means every program or algorithm is combination of only **3 statements**. 
+
+
+To emphasize, Only **those statements** can solve any problem in term of creating algorithm in Computer Science.
+
+### Sequence
+
+Sequence is talking about the ordered of the code. The code must be read on the ordered sequencing of successive commands.
+
+For example, Top-to-Bottom, Left-to-Right or Right-to-Left (based on Operator Precedence)
+
+![img](../Sequential.png)
+
+### Condition
+
+Condition is well known as an IF-Else statement which is decided what program should do. The choiced process is controled by the boolean condition that evaluates to be **True** or **False**.
+
+![img](../Conditional.png)
+
+
+### Iteration
+
+Iteration is also well known as a Loop. Basically, Iteration means we can **repeat** some statements which are related to the Sequence Control Flow. Moreover, Iteration can be controled by the boolean condition.
+
+![img](../Iteration.png)
+
+
 ## What can we do with Python?
 
 ### [Drawing and Animation](/#advanced-drawing)
