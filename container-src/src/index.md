@@ -36,7 +36,8 @@
 
 ### Pythonic Way of Coding 
 
-- [Python: Python Package Manager - pipenv]
+- [Computer: Basic Commands (Both Powershell and Terminal)](./pythonic/command.md)
+- [Python: Python Package Manager - pipenv](./pythonic/pipenv/Index.md)
 - Object-Oriented Programming Paradigm
     1. [Python: OOP - Class and Object]
     1. [Python: pass keyword]
@@ -165,54 +166,20 @@ There are many ways to do this workshop. You can use Cloud servies or install lo
 ::: warning Recommended local Installation
 1. [Python](https://www.python.org/)
 2. IDE (For example, [VS Code](https://code.visualstudio.com/))
-3. (Optional) Environment manager: [Docker](./addon-lesson/DS/env/Docker/Index.md) or **pipenv**
- - If you decided to use **Docker**, you can skip 4th step.
+3. **pipenv**
 4. Dependencies
 
-- Global ```pip``` for Windows
 
-```sh
-pip install "numpy==1.22.3"
-pip install "pandas==1.4.2"
-pip install "matplotlib==3.5.1"
-pip install "ipykernel==6.13.0"
-```
-
-- Global ```pip``` for MacOSX and Linux Distributions
-
-```sh
-pip3 install "numpy==1.22.3"
-pip3 install "pandas==1.4.2"
-pip3 install "matplotlib==3.5.1"
-pip3 install "ipykernel==6.13.0"
-```
-
-- Locally install for project using ```pipenv```
-```sh
-# Windows
-pip install pipenv
-# MacOSX and Linux Distributions
-pip3 install pipenv
-```
-
-!!!!!!!! Please prepare **your project folder** before doing this. !!!!!!!!
 ```sh
 pipenv install --python 3.10
-pipenv install "numpy==1.22.3"
-pipenv install "pandas==1.4.2"
-pipenv install "matplotlib==3.5.1"
-pipenv install "ipykernel==6.13.0"
+pipenv install numpy==1.22.3
+pipenv install pandas==1.4.2
+pipenv install matplotlib==3.5.1
+pipenv install ipykernel==6.13.0
 ```
-You might see those files in your project folder.
-
-```
-+-- your-project-folder
-|    +-- Pipfile		
-|    +-- Pipfile.lock
-```
-
 :::
-
+- [Computer: Basic Commands (Both Powershell and Terminal)](./pythonic/command.md)
+- [Python: Python Package Manager - pipenv](./pythonic/pipenv/Index.md)
 - [Basic Graph with Matplotlib](./addon-lesson/DS/BasicGraph.md)
 
 #### Workshops
